@@ -2,6 +2,15 @@
   "Packages": [
     {
       "Package": {
+        "Id": "TestReportGeneratorModified",
+        "Version": "1.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\testreportgeneratormodified/1.0.2\\lib/TestReportGenerator.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.5.3"
       },
@@ -111,15 +120,6 @@
       "Assemblies": [
         "C:\\Users\\SUBRAMAS\\.nuget\\packages\\xexcelreport/1.0.0.1\\lib/net40/ExcelLib.dll",
         "C:\\Users\\SUBRAMAS\\.nuget\\packages\\xexcelreport/1.0.0.1\\lib/net40/XExcelReports.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "TestReportGeneratorModified",
-        "Version": "1.0.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\testreportgeneratormodified/1.0.2\\lib/TestReportGenerator.dll"
       ]
     }
   ],

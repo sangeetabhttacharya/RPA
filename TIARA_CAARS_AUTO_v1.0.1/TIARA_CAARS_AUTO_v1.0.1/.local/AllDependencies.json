@@ -1036,9 +1036,9 @@
     "restore": {
       "projectUniqueName": "Tiara_Test",
       "projectName": "Tiara_Test",
-      "projectPath": "C:\\Users\\SUBRAMAS\\OneDrive - AA PLC\\UiPath\\TIARA_CAARS_AUTO_v1.0.1\\.local",
+      "projectPath": "C:\\Users\\SUBRAMAS\\OneDrive - AA PLC\\UiPath\\Uipath_Projects\\RPA\\TIARA_CAARS_AUTO_v1.0.1\\TIARA_CAARS_AUTO_v1.0.1\\.local",
       "packagesPath": "C:\\Users\\SUBRAMAS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SUBRAMAS\\OneDrive - AA PLC\\UiPath\\TIARA_CAARS_AUTO_v1.0.1\\.local"
+      "outputPath": "C:\\Users\\SUBRAMAS\\OneDrive - AA PLC\\UiPath\\Uipath_Projects\\RPA\\TIARA_CAARS_AUTO_v1.0.1\\TIARA_CAARS_AUTO_v1.0.1\\.local"
     },
     "frameworks": {
       "net461": {
