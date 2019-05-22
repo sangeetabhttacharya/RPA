@@ -52,7 +52,6 @@
       <AssemblyReference>UiPath.Word</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Windows.Presentation</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="CAARS" sap:VirtualizedContainerService.HintSize="665,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
