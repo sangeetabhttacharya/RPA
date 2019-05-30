@@ -59,8 +59,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="675,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Environment.CurrentDirectory - &quot; + Environment.CurrentDirectory]" />
-    <ui:PathExists DisplayName="Path Exists" Exists="[FileFound]" sap:VirtualizedContainerService.HintSize="675,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[Environment.CurrentDirectory +&quot;Testing-Report.xml&quot;]" PathType="File" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="675,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Environment.CurrentDirectory - &quot; + Environment.CurrentDirectory +&quot;\Testing-Report.xml&quot;]" />
+    <ui:PathExists DisplayName="Path Exists" Exists="[FileFound]" sap:VirtualizedContainerService.HintSize="675,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[Environment.CurrentDirectory +&quot;\Testing-Report.xml&quot;]" PathType="File" />
     <If Condition="[FileFound]" sap:VirtualizedContainerService.HintSize="675,425" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence sap:VirtualizedContainerService.HintSize="336,277" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -69,7 +69,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="C:\Users\subramas\OneDrive - AA PLC\UiPath\Tiara_Test\Testing-Report.xml" />
+          <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[Environment.CurrentDirectory +&quot;\Testing-Report.xml&quot;]" />
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Report file has been deleted successfully&quot;]" />
         </Sequence>
       </If.Then>

@@ -121,6 +121,20 @@
         "C:\\Users\\SUBRAMAS\\.nuget\\packages\\xexcelreport/1.0.0.1\\lib/net40/ExcelLib.dll",
         "C:\\Users\\SUBRAMAS\\.nuget\\packages\\xexcelreport/1.0.0.1\\lib/net40/XExcelReports.dll"
       ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\uipath.webapi.activities/1.4.1\\lib/net452/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\uipath.webapi.activities/1.4.1\\lib/net452/UiPath.Web.Activities.dll",
+        "C:\\Users\\SUBRAMAS\\.nuget\\packages\\uipath.webapi.activities/1.4.1\\lib/net452/UiPath.Web.dll"
+      ]
     }
   ],
   "Conflicts": [],
@@ -214,6 +228,11 @@
           "Item2": "[1.0.0, )"
         }
       ]
+    },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.3.1",
+      "Dependencies": []
     },
     "SharpZipLib": {
       "Id": "SharpZipLib",
@@ -330,6 +349,24 @@
       "Id": "UiPath.Vision",
       "Version": "1.5.0",
       "Dependencies": []
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.4.1",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.3.1, )"
+        }
+      ]
     },
     "XExcelReport": {
       "Id": "XExcelReport",

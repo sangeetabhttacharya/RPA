@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>835,9854</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>835,8712</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -58,7 +58,7 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FetchCustomerdetails" sap:VirtualizedContainerService.HintSize="795,9774" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FetchCustomerdetails" sap:VirtualizedContainerService.HintSize="795,8632" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="T_Customername" />
       <Variable x:TypeArguments="x:String" Name="T_MembershipType" />
@@ -93,21 +93,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="773,9650" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="773,8508" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="755,9423" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence sap:VirtualizedContainerService.HintSize="755,8281" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe PROD'" sap:VirtualizedContainerService.HintSize="733,7849" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="18c8b6a184cb5ee431a27119736f1402" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='PROD Mirror on AAMORPHEUS - Internet Explorer' /&gt;">
+          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe PROD'" sap:VirtualizedContainerService.HintSize="733,6707" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="18c8b6a184cb5ee431a27119736f1402" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='PROD Mirror on AAMORPHEUS - Internet Explorer' /&gt;">
             <ui:WindowScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="719,7703" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="719,6561" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="HeadlineFound" />
                     <Variable x:TypeArguments="x:Boolean" Name="Information" />
@@ -152,81 +152,6 @@
                     </If.Else>
                   </If>
                   <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="697,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="697,308" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                    <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="336,230" sap2010:WorkflowViewState.IdRef="Sequence_17">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:ImageFound DisplayName="Image Exists 'iexplore.exe'" Found="[Information]" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="ImageFound_2">
-                          <ui:ImageFound.Image>
-                            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYcAAAAhCAYAAAAyLGc5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK6SURBVHhe7dvRrdswDIXhjNTMFHSoBh6jcyToJtnANSXTpSlSVl9cXPc38MESRflRB77Ovc3L9fl8AADYbOHw4+cvAACKbji83vM8PV/z7bb4NtX7skPqUT8A4BrCcKihMM/356OEg5Jg0LAgIADgusJwKGHwnqotGGo43Lc3iPtuDwDgOppweHx/1DeGNRwkDGo4PBrTc9o9DABwDU043JbXgy0YlpDYB8Lt0O7hZu7Xoro+w7K9vqe3ZvkeO+/Vo72ZqN/vidZ8rVcHgLOk4VCDoSzvrtdbvje81tn+8oeancvYr2s9Gkf8+tE8qss42hfV7N2L6tkzevOR5wDA2cJwkGDw4SCBIH9G0rcIueq3h/otos7zw1DHIz2RbG1kv+/xfVnN3r2obmsj+3Tse7O9AHCWMBzkY7MNBxsMSwSs968bDr27yuoqqtvayD4d+95sLwCcpQkH+3Ygh5QPBv04HV29Q250bGnd92V1u9eK+rO7H0fzkVq07usjYwD4F5pwKMXlcNJwsMEgZCy1ZbAnq8vdPyca23mvx8rWevujPVrL7jr2dM329GrRuq/7Hp1newHgLOVU9+FQFtZw8MGwhUNwZYedH9t5r8fK1o72+5rOs7sfR/ORWrTu675H59leADhLGg71jaGGglcCQ9bUemWHnR/b2lGP5deP5lHNzqNx9IyoHvUd9Yw+I6oDwJnKyR6FQ1ksB1V9W5BQEP7N4c9HaZEfftmBN9JjSY+K1nzN14/GI8+I5r2aitZ8rVcHgLMMhYN8hN4Fw1JX9hdLHGoAcA1D4WCDwf8DnAZDHRMOAHAFA+Hwd6LnAAC+lm44AAD+T1s4AACgCAcAQINwAAA0CAcAQINwAAA0CAcAQINwAAA0CAcAQINwAAA0CAcAQINwAAA0CAcAQINwAAA0CAcAgPOZfwPWuIJfa18swQAAAABJRU5ErkJggg==" />
-                          </ui:ImageFound.Image>
-                          <ui:ImageFound.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-                          </ui:ImageFound.Target>
-                        </ui:ImageFound>
-                      </Sequence>
-                    </ui:CommentOut.Body>
-                  </ui:CommentOut>
-                  <If Condition="[Information]" sap:VirtualizedContainerService.HintSize="697,253" sap2010:WorkflowViewState.IdRef="If_5">
-                    <If.Then>
-                      <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
-                        <ui:ClickImage.CursorPosition>
-                          <ui:CursorPosition Position="Center">
-                            <ui:CursorPosition.OffsetX>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetX>
-                            <ui:CursorPosition.OffsetY>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetY>
-                          </ui:CursorPosition>
-                        </ui:ClickImage.CursorPosition>
-                        <ui:ClickImage.Image>
-                          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAAWCAYAAAB0S0oJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACFSURBVFhH7dLRCcAgDEXR7D9FdnOBbGBbeEoaxD+j4CtcqrU/OSj1fUopV6eqtUOY2bURAhECEQIRAhECEQIRAqVBiEhv9m1XqTdiNPQJCF/pEP4d123v82crOwpiNHgWxhYIvyYEIf776yDa0HHwOKj/L56tLPVGnBwhECEQIRAhkKrWB+iV/vzfTVVZAAAAAElFTkSuQmCC" />
-                        </ui:ClickImage.Image>
-                        <ui:ClickImage.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
-                        </ui:ClickImage.Target>
-                      </ui:ClickImage>
-                    </If.Then>
-                    <If.Else>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;No Information Alert&quot;]" />
-                    </If.Else>
-                  </If>
-                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="697,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                  <ui:ImageFound DisplayName="Image Exists 'iexplore.exe'" Found="[Warning_found]" sap:VirtualizedContainerService.HintSize="697,106" sap2010:WorkflowViewState.IdRef="ImageFound_3">
-                    <ui:ImageFound.Image>
-                      <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYUAAAAgCAYAAAD9hWShAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJRSURBVHhe7dtvTsMwDIfhHomdaeJQTD0G59jETXaDUDeNcVynf8S+EN5Kj4g9Lx/zUygMH59fybs/Uhpv9zQMk7cx/xzS3I/mAQB9qEIhh0FKl9t1DoVCAqGEBMEAAP2qQmEOgceYaSDkULjojeFSbQAA6IeGwvX9mm8ISyhICORQuK6Mt3G1EQDg79NQGKbrgAbCFA51EAy77D5lfabXmon4GVtH/dbaivrSK/xnANCjVSjkQBiSf+4PeZ9wX6r6sYemP0BL3erb9dZMqy/raM7P2PXe/JEaAHpUhYIEgg8FCQL5dVG5NciT3y3kdw25rg/dsrb12ZmojvpHvvubeavVB4BeVKEgL5FtKNhAmI7+5ed2KJS9/Drq+brV96K9tr77m3kA+E80FOxtQA5FHwjlpXP0tA7YI/3WTFlHtuZfvS51YfsA0BsNhbmYD74cCjYQhKylNy1qLwgFz8+36qhX6tY+Z+etVh8AelGFwtxYQsEHgoZC8PjDstRH+q2Z6LOo16pb+5ydt1p9AOjFKhTyDSGHgTcHhXxWLE90WB45WPdmjuzbmrH91tr2fH+vBoAerUJhbs6HZL4dSBgIf1P4edks4oPW93x/b+YVe2ytragvvcJ/BgA92gwFeblcBcLUL+xfIHFoAkAfNkPBBoL/x7USCHlNKABADzZC4ZxoHwDA3xKGAgDgfxqez2cCAEAQCgAARSgAABShAABQhAIAQBEKAABFKAAAFKEAAFCEAgBAEQoAAEUoAAAUoQAAUIQCAEARCgAARSgAABbP9A24vETgQLcVqAAAAABJRU5ErkJggg==" />
-                    </ui:ImageFound.Image>
-                    <ui:ImageFound.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='8' role='panel' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-                    </ui:ImageFound.Target>
-                  </ui:ImageFound>
-                  <If Condition="[Warning_found]" sap:VirtualizedContainerService.HintSize="697,253" sap2010:WorkflowViewState.IdRef="If_6">
-                    <If.Then>
-                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  OK'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                        <ui:Click.CursorPosition>
-                          <ui:CursorPosition Position="Center">
-                            <ui:CursorPosition.OffsetX>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetX>
-                            <ui:CursorPosition.OffsetY>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetY>
-                          </ui:CursorPosition>
-                        </ui:Click.CursorPosition>
-                        <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c742057f67961fcdb3ab7e80a242634f" Selector="&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='WARNING' role='internal frame' /&gt;&lt;java idx='2' name='OK' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
-                        </ui:Click.Target>
-                      </ui:Click>
-                    </If.Then>
-                    <If.Else>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;No Warning Message&quot;]" />
-                    </If.Else>
-                  </If>
                   <Sequence sap:VirtualizedContainerService.HintSize="697,1192" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -244,7 +169,7 @@
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Customer Name &quot; + T_Customername]" />
                     <ui:GetFullText DisplayName="Get Full Text 'text'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="GetFullText_1" IgnoreHidden="False">
                       <ui:GetFullText.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="5dcae74e9ffd9a920ce83dc40d422ed3" Selector="&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='37' role='text' /&gt;" WaitForReady="INTERACTIVE" />
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2078408a8f3259976f5ceba2f48c7439" Selector="&lt;html title='PROD Mirror on AAMORPHEUS' /&gt;&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='36' role='text' /&gt;&lt;nav up='1' /&gt;&lt;java idx='8' role='text' /&gt;" WaitForReady="INTERACTIVE" />
                       </ui:GetFullText.Target>
                       <ui:GetFullText.Text>
                         <OutArgument x:TypeArguments="x:String">[PolicyStartDate]</OutArgument>
@@ -253,7 +178,7 @@
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Policy Start Date &quot; + PolicyStartDate]" />
                     <ui:GetFullText DisplayName="Get Full Text 'text  Expiry Date:'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="GetFullText_3" IgnoreHidden="False">
                       <ui:GetFullText.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2bb69a246b3ed08efc0930a31a70c2a7" Selector="&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='39' role='text' /&gt;" WaitForReady="INTERACTIVE" />
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a14e834e6636a27be7a8de048c0dc0b1" Selector="&lt;html title='PROD Mirror on AAMORPHEUS' /&gt;&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='38' role='text' /&gt;&lt;nav up='1' /&gt;&lt;java idx='10' role='text' /&gt;" WaitForReady="INTERACTIVE" />
                       </ui:GetFullText.Target>
                       <ui:GetFullText.Text>
                         <OutArgument x:TypeArguments="x:String">[PolicyExpiryDate]</OutArgument>
@@ -262,7 +187,7 @@
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Policy Expiry Date &quot; + PolicyExpiryDate]" />
                     <ui:GetFullText DisplayName="Get Full Text 'text'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="GetFullText_4" IgnoreHidden="False">
                       <ui:GetFullText.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e86fcad0151a96496a72391efff9081c" Selector="&lt;html title='PROD Mirror on AAMORPHEUS' /&gt;&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='35' role='text' /&gt;" WaitForReady="INTERACTIVE" />
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e86fcad0151a96496a72391efff9081c" Selector="&lt;html title='PROD Mirror on AAMORPHEUS' /&gt;&lt;wnd cls='SunAwtCanvas' /&gt;&lt;java name='TIA' role='internal frame' /&gt;&lt;java idx='34' role='text' /&gt;&lt;nav up='1' /&gt;&lt;java idx='6' role='text' /&gt;" WaitForReady="INTERACTIVE" />
                       </ui:GetFullText.Target>
                       <ui:GetFullText.Text>
                         <OutArgument x:TypeArguments="x:String">[PolicyStatus]</OutArgument>

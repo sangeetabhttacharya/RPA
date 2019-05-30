@@ -192,6 +192,18 @@
           "lib/net45/NPOI.dll": {}
         }
       },
+      "RestSharp/106.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
       "SharpZipLib/1.0.0": {
         "type": "package",
         "compile": {
@@ -430,6 +442,51 @@
         "runtime": {
           "lib/net452/UiPath.Vision.Core.dll": {},
           "lib/net452/UiPath.Vision.dll": {}
+        }
+      },
+      "UiPath.WebAPI.Activities/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "106.3.1"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Web.Activities.Design.dll": {},
+          "lib/net452/UiPath.Web.Activities.dll": {},
+          "lib/net452/UiPath.Web.dll": {}
+        },
+        "resource": {
+          "lib/net452/fr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Web.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Web.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/ja/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Web.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Web.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ru/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/ru/UiPath.Web.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/ru/UiPath.Web.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "XExcelReport/1.0.0.1": {
@@ -706,6 +763,19 @@
         "logo/60_60.jpg",
         "npoi.2.4.1.nupkg.sha512",
         "npoi.nuspec"
+      ]
+    },
+    "RestSharp/106.3.1": {
+      "sha512": "TmlN7SXjK52zzpQDTuzw7IH3XQ2Svtss/4zvQBKIgf74QIVxvlxoAqQYu1EhNQ1bMSBIQ4aK120BO7W+v8/kiQ==",
+      "type": "package",
+      "path": "restsharp/106.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.dll",
+        "restsharp.106.3.1.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "SharpZipLib/1.0.0": {
@@ -1002,6 +1072,29 @@
         "uipath.vision.nuspec"
       ]
     },
+    "UiPath.WebAPI.Activities/1.4.1": {
+      "sha512": "2Z1UaL+pi2wYhA7I3HH4hoXNzwOHYsOHrgmFlpmcz78UzafktP5nyPIMSFpIESa2ZsMYT3XusH5xuYiKxl9lNw==",
+      "type": "package",
+      "path": "uipath.webapi.activities/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/UiPath.Web.Activities.Design.dll",
+        "lib/net452/UiPath.Web.Activities.dll",
+        "lib/net452/UiPath.Web.dll",
+        "lib/net452/fr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/fr/UiPath.Web.Activities.resources.dll",
+        "lib/net452/fr/UiPath.Web.resources.dll",
+        "lib/net452/ja/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/ja/UiPath.Web.Activities.resources.dll",
+        "lib/net452/ja/UiPath.Web.resources.dll",
+        "lib/net452/ru/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/ru/UiPath.Web.Activities.resources.dll",
+        "lib/net452/ru/UiPath.Web.resources.dll",
+        "uipath.webapi.activities.1.4.1.nupkg.sha512",
+        "uipath.webapi.activities.nuspec"
+      ]
+    },
     "XExcelReport/1.0.0.1": {
       "sha512": "j95cfTI761HfRIxaYFRl8hCdwE46nByDVPBVefCqH9UyHxKoAdicp8Oh9OnP75FCrCpkf/GgAk4LrPRmfL4V1Q==",
       "type": "package",
@@ -1026,6 +1119,7 @@
       "UiPath.Mail.Activities >= 1.4.0 <= 1.4.0",
       "UiPath.System.Activities >= 19.4.0 <= 19.4.0",
       "UiPath.UIAutomation.Activities >= 19.4.1 <= 19.4.1",
+      "UiPath.WebAPI.Activities >= 1.4.1 <= 1.4.1",
       "XExcelReport >= 1.0.0.1 <= 1.0.0.1"
     ]
   },
@@ -1068,6 +1162,11 @@
             "target": "Package",
             "version": "[19.4.1, 19.4.1]"
           },
+          "UiPath.WebAPI.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.1, 1.4.1]"
+          },
           "XExcelReport": {
             "include": "Runtime",
             "target": "Package",
@@ -1076,5 +1175,14 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp 106.3.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "RestSharp"
+    }
+  ]
 }
